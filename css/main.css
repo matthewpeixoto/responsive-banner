@@ -43,11 +43,8 @@ html {
     background-image: linear-gradient(to top, rgba(73, 85, 98, .9), transparent);
   }
 
-  .banner-text {
-    margin-bottom: 0;
-  }
-
-  .banner-title {
+  .banner-title,
+  .banner-content p {
     margin-bottom: 0;
   }
 
