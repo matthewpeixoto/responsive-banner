@@ -1,0 +1,41 @@
+html {
+  font-family: Georgia, sans-serif;
+}
+
+.banner {
+  background-color: #495562;
+
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #97a49b;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-btn {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+    position: relative;
+  }
+
+  .banner-content {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+
+    background-color: transparent;
+  }
+
+}
