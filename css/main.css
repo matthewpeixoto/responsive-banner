@@ -5,13 +5,20 @@ html {
 .banner {
   background-color: #495562;
 
-  color: #fff;
+  color: #efefef;
 }
 
 .btn-ghost {
   background-color: transparent;
   border-color: #97a49b;
   color: #fff;
+}
+
+.btn-ghost:focus,
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
 }
 
 @media only screen and (min-width: 38em) {
@@ -36,6 +43,10 @@ html {
     transform: translateX(-50%);
 
     background-color: transparent;
+  }
+
+  .btn-ghost {
+    border-color: #fff;
   }
 
 }
