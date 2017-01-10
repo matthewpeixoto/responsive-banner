@@ -18,7 +18,7 @@ html {
 .btn-ghost:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #000;
+  color: #495562;
 }
 
 @media only screen and (min-width: 38em) {
