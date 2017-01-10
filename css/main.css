@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, serif;
 }
 
 .banner {
@@ -38,11 +38,17 @@ html {
 
   .banner-content {
     bottom: 0;
-    left: 50%;
     position: absolute;
-    transform: translateX(-50%);
 
-    background-color: transparent;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), transparent);
+  }
+
+  .banner-text {
+    margin-bottom: 0;
+  }
+
+  .banner-title {
+    margin-bottom: 0;
   }
 
   .btn-ghost {
